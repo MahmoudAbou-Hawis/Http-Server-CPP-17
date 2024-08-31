@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="triangle-top"></div>
+        <div class="triangle-bottom"></div>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2" class="user">USER LOGIN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="profile.png" alt="Profile Icon" class="profile">
+                    </td>
+                    <td class="input">
+                        <input id="Username" type="text" placeholder="Username" aria-label="Username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="padlock.png" alt="Padlock Icon" class="profile">
+                    </td>
+                    <td class="input">
+                        <input id="password" type="password" placeholder="Password" aria-label="Password">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button id="login">LOGIN</button>
+                        <p class="user-login-error" id="user-login-error"></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
