@@ -32,7 +32,7 @@ make
 ## Usage
 ### Running the Server
 ```sh
-./http_server
+./CPP_Server 
 ```
 
 ## Future Improvements
